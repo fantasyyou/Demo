@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.bi-icon {
+	float:left;
+	margin-left:270px;
+	width:500px;
+	height:90px;
+    background:url(../../images/share/bill.png);
+	background-size:100% 100%;
+ }
+
+.bi-table-area {
+   width:1000px;
+   height:auto;
+   margin:0 auto;
+   margin-top:10px;
+   font-size:13px;
+   font-family:Microsoft YaHei;
+   border:1px solid #8E8E8E;
+ }
+
+.patch-line {
+   float:left;
+   width:96%;  
+   margin-left:20px;
+   margin-top:15px;
+   border-bottom:1px solid #8E8E8E;
+ }
+ 
+.tatble-title {
+   clear:left;
+   font-size:20px; 
+   color:#4F4F4F; 
+   font-family:STHeiti;  
+   margin-left:260px;
+ }
+ 
+.information-title {
+   clear:both;
+   font-size:15px; 
+   font-family:STHeiti; 
+   line-height:40px; 
+   margin-left:20px;
+ }
+
+.subnav-address,.subnav-pay{
+   float:left;
+   width:100px;
+   height:30px;
+   margin-top:5px;
+   margin-left:40px;
+   line-height:30px;
+   text-align:center;
+   border:2px solid #8E8E8E;
+ }
+ .subnav-address:visited,.subnav-pay:hover{border:2px solid #FF0000;}
+ 
+.subnav-address {
+   clear:left;
+ }
+ 
+ .subnav-pay {
+   margin-left:10px; 
+ }
+ 
+ /*购买商品信息(重写一些商品信息)*/
+ .bi-comm {
+   width:960px;
+   height:120px;
+   margin-top:0px;
+ }
+ 
+.bi-comm-price {
+   margin-left:270px;
+ }

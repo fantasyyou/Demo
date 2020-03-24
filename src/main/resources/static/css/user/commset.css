@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.commad {
+   float:left;
+   width:180px;
+   height:1150px;
+   margin-top:10px;
+   margin-right:1px;
+   margin-left:50px; 
+   border:1px solid #9D9D9D;
+   font-family:Microsoft YaHei;
+ }
+ 
+.commarea {
+   float:left;
+   width:1220px;
+   height:1150px;
+   margin-top:10px;
+   margin-right:1px;
+   margin-left:10px; 
+ }
+ 
+.comm {
+   float:left;
+   width:240px;
+   height:360px;
+   margin-left:1px;
+   margin-top:10px;
+   border:1px solid #FFFFFF;
+   font-family:Microsoft YaHei;
+   font-size:13px;
+ }
+.comm:hover{border:1px solid #9D9D9D;}
+ 
+.comm_img {
+   width:225px;
+   height:150px;
+   margin-left:5px;
+   margin-top:30px;
+ }
+ 
+.comm_price {
+   width:225px;
+   height:30px;
+   margin-left:5px;
+   margin-top:5px;
+   color:red;
+   font-size:22px;
+ }
+ 
+.comm_name {
+   width:225px;
+   height:38px;
+   margin-left:5px;
+   margin-top:5px;
+   word-wrap:break-word;    /*文字换行*/
+ }
+ 
+.comm_discuss {
+   width:225px;
+   height:18px;
+   margin-left:5px;
+   margin-top:5px;
+   color:#7B7B7B;
+ }
+ 
+.comm_store {
+   width:225px;
+   height:18px;
+   margin-left:5px;
+   margin-top:5px;
+   color:#7B7B7B;
+ }
+ 
+.comm_operate {
+   width:225px;
+   height:25px;
+   margin-left:5px;
+   margin-top:5px;
+ }
+ 
+.sidebar {
+	width:50px;
+	height:23px;
+	float:left;
+	text-align:center;
+    line-height:23px;
+	border-top:1px solid #9D9D9D;
+	border-bottom:1px solid #9D9D9D;
+	border-left:1px solid #9D9D9D;
+ }
+ 
+ .sidebar_input {
+	width:100px;
+	height:23px;
+	float:left;
+	text-align:center;
+    line-height:23px;
+	border:1px solid #9D9D9D;
+	color:red;
+ }
+ 
+ .commad_img {
+   width:160px;
+   height:150px;
+   margin-left:10px;
+   margin-top:30px;
+ }
+ 
+.commad_price {
+   width:160px;
+   height:30px;
+   margin-left:10px;
+   margin-top:5px;
+   line-height:30px;
+   font-size:20px;
+   color:red;
+ }
+ 
+.commad_name {
+   width:160px;
+   height:35px;
+   margin-left:10px;
+   margin-top:5px;
+   font-size:13px;
+   word-wrap:break-word;    /*文字换行*/
+ }
+ 
+.commad_discuss {
+   width:160px;
+   height:18px;
+   margin-left:10px;
+   margin-top:5px;
+   color:#7B7B7B;
+   font-size:13px;
+ }

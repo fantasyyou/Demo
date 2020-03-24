@@ -1,0 +1,15 @@
+@charset "UTF-8";
+a{color:black;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;} 
+a:hover{color:red;}
+.table_1{width:1920px; height:150px; background-size:100% 100%;}
+.table_2{width:1920px; height:400px; background-size:100% 100%;}
+.login{height:40px; width:78%; color:white; background-color:red; font-size:20px; border:0;}
+.login_img{border-top:1px solid #9D9D9D; border-left:1px solid #9D9D9D; border-bottom:1px solid #9D9D9D; border-right:0px; width:25px; height:25px;}
+.login_td{height:20px;}
+.prompt{height:20px; width:78%; padding-left:40px; color:red;}
+.td_title{text-align:center; height:80px; background-color:#FFFFFF; border-bottom:1px solid #F0F0F0}
+.font_title{color:red; font-size:25px;}
+.td_input{text-align:right; width:20%; height:35px; background-color:#FFFFFF}
+.input{font-size:20px; border:1px solid #9D9D9D;}

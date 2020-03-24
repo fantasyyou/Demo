@@ -1,0 +1,97 @@
+@charset "UTF-8";
+.receiveaddress {
+   width:700px;
+   height:450px;
+   border-radius:5px;
+   font-family:STHeiti;	
+   font-size:13px;
+   margin:0 auto;
+   border:5px solid #8E8E8E;
+ }
+
+.add-address {
+   float:left;
+   width:685px;
+   height:35px; 
+   padding-left:15px;
+   line-height:35px;
+   font-size:15px;
+   color:#7B7B7B;
+   background:#F0F0F0;
+ }
+ 
+.add-address-tag {
+   float:left;
+   clear:left;
+   width:70px;
+   height:27px; 
+   margin-top:10px;
+   margin-left:20px;
+   line-height:27px; 
+ }
+
+.div-input {
+   float:left;
+   clear:right;
+   width:250px;
+   height:25px; 
+   margin-top:10px;
+   line-height:25px; 
+   border:1px solid #8E8E8E;
+ }
+ 
+.re-input {
+   width:200px;
+   height:21px; 
+   margin-top:2px;
+   padding-left:10px;
+   border:0px;
+ }
+
+.re-button {
+   float:left;
+   clear:both;
+   margin-top:20px;
+   margin-left:140px;
+   width:120px;
+   height:25px; 
+   border-radius:5px;
+   text-align:center;
+   line-height:25px; 
+   color:#FFFFFF;
+   background:#FF0000;
+ }
+.re-select {
+   width:500px;
+   height:auto; 
+   margin-top:72px;
+   margin-left:90px;
+   position:absolute;
+   background:#FFFFFF;
+   display:none;
+   border:1px solid #000000;
+ }
+
+.re-select-choice {
+   float:left;
+   width:auto;
+   height:25px; 
+   margin-left:10px; 
+   margin-top:8px;
+   line-height:25px; 
+   display:none;
+   border:2px solid #FF0000;
+   border-bottom:3px solid #FFFFFF;
+   cursor:pointer;
+ }
+
+.re-address-tag {
+   float:left;
+   width:90px; 
+   height:20px; 
+   margin-left:10px;
+   margin-top:5px;
+   line-height:20px;
+   cursor:pointer;
+ }
+.re-address-tag:hover{color:#FF0000;}

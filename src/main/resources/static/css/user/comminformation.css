@@ -1,0 +1,126 @@
+@charset "UTF-8";
+.introduce-store {
+   width:100%;
+   height:30px;
+   line-height:30px;
+   background:#E0E0E0;
+   color:#8E8E8E;
+   font-family:Microsoft YaHei;
+   font-size:13px;
+ }
+ 
+.introduce-comm-picture-area {
+   float:left;
+   width:300px;
+   height:360px;
+   margin-top:15px;
+   margin-left:15%;
+   font-family:Microsoft YaHei;
+   font-size:13px;
+ }
+ 
+#comm-picture {
+   width:100%;
+   height:90%;
+   border:1px solid #ADADAD;
+ }
+ 
+.introduce-comm-information-area {
+   float:left;
+   width:600px;
+   height:auto;
+   margin-top:25px;
+   margin-left:25px;
+   font-family:Microsoft YaHei;
+   font-size:13px;
+ }
+
+#introduce-comm-name,#introduce-comm-information,#introduce-comm-price {
+   width:100%;
+   height:auto;
+   word-wrap:break-word;    /*文字换行*/ 
+ }
+ 
+#introduce-comm-name {
+   font-size:15px;
+ }
+ 
+#introduce-comm-information {
+	color:#FF0000; 
+	margin-top:10px;
+ }
+ 
+#introduce-comm-price {
+	min-height:50px;
+	line-height:50px;
+	margin-top:10px;
+	padding-left:5px;
+	background:#E0E0E0;
+	color:#8E8E8E;
+ }
+
+.introduce-update-number {
+   float:left;
+   margin-top:10px;
+   width:81px;
+   height:51px;
+   border:1px solid #8E8E8E;
+ }
+ 
+.introduce-add {
+   float:left;
+   margin-top:10px;
+   margin-left:10px;
+   width:150px;
+   height:53px;
+   background:#FF0000;
+   color:#FFFFFF;
+   text-align:center;
+   line-height:50px;
+   font-size:18px;
+ }
+
+.introduce-comm-number {
+    float:left; 
+    width:56px;
+    height:50px; 
+	text-align:center;
+	line-height:50px;
+	border:0px;
+ }
+ 
+.introduce-add-number {
+	float:left; 
+	width:24px;
+	height:25px; 
+    text-align:center;
+	line-height:25px;
+	border:0px;
+	border-left:1px solid #8E8E8E;
+	border-bottom:1px solid #8E8E8E;
+ }
+
+.introduce-reduce-number {
+   float:left; 
+   width:24px;
+   height:25px;
+   text-align:center;
+   line-height:25px;
+   border:0px;
+   border-left:1px solid #8E8E8E;
+ }
+ 
+#introduce-comm-discuss-area {
+   float:left;
+   width:1000px;
+   height:100px;
+   margin-top:15px;
+   margin-left:15%;
+ }
+ 
+.introduce-comm-discuss {
+   width:990px;
+   margin-left:10px;
+   height:100px;
+   border-bottom:1px solid #8E8E8E;
+ }

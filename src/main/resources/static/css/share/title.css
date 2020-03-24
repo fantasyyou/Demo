@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.ti-top-title-area {
+   width:1520px;
+   height:40px;
+   background:#E0E0E0;
+ }
+ 
+.title,.title-width-80,.title-left-260,.title-left-652,.title-left-1100{
+   float:left;
+   height:20px;	
+   margin-top:10px;
+   text-align:center;
+   line-height:20px;
+   color:#8E8E8E;
+   font-size:13px;
+   /*font-family:STHeiti;*/
+   font-family:Microsoft YaHei;
+ }
+
+.title-width-80 {
+   width:80px;
+ }
+.title-left-260 {
+   margin-left:260px;	
+ }
+
+.title-left-652 {
+   margin-left:652px;	
+ }
+ 
+.title-left-1100 {
+   margin-left:1100px;	
+ }

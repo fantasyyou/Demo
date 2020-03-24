@@ -1,0 +1,165 @@
+@charset "UTF-8";
+.a {color:red;}
+.homepage-logo {
+   width:200px;
+   height:150px;
+   box-shadow:0px 0px 10px #aaa;
+ }
+ 
+.top-poster {
+   width:1520px;
+   height:100px;
+   background:#E0E0E0;
+   margin-top:0px;	
+   background:url(../../images/commodity/top-ad.jpg); 
+   background-size:100% 100%;
+ }
+ 
+.div-assort {
+   width:200px;
+   height:650px;
+   position:absolute;
+   margin-left:150px;
+   background:#FFFFFF; 
+   display:block; 
+ }
+ 
+.comm-assort {
+   width:190px;
+   height:30px;
+   line-height:35px;
+   font-size:18px;
+   padding-left:10px;
+   color:#FFFFFF;
+   background:#FF0000; 
+   border-bottom:5px solid #FF0000;
+ }
+ 
+.assort-title {
+   width:190px;
+   height:45px;
+   line-height:45px;
+   font-size:15px;
+   padding-left:10px;
+   background:#FFFFFF;
+   font-family:Microsoft YaHei;
+ }
+.assort-title:hover{background:#D0D0D0;}
+
+.assort-area {
+   width:800px;
+   height:455px;
+   margin-top:195px;
+   margin-left:352px; 
+   position:absolute;
+   z-index:2;
+   background:#FFFFFF;
+   display:none;
+   box-shadow:5px 0px 5px #aaa;
+ }
+
+.assort-two-title {
+   float:left;
+   clear:left;
+   width:85px;
+   height:30px;
+   margin-left:20px;
+   margin-top:10px;
+   text-align:right;
+   word-wrap:break-word;
+ }
+
+.three-title-area {
+   float:left;
+   margin-left:10px;
+   margin-top:10px;
+   width:610px;
+   height:auto;
+   word-wrap:break-word;    /*文字换行*/
+   border-bottom:1px solid #D0D0D0;
+ }
+
+.title-3 {
+   float:left;
+   margin-left:15px;
+   font-family:Microsoft YaHei;
+ }
+
+.div-poster {
+   float:left;
+   width:800px;
+   height:455px;
+   margin-top:10px;
+   margin-left:360px;
+   background:url(../../images/commodity/div-poster-4.jpg); 
+   background-size:100% 100%;
+ }
+ 
+.div-poster-block {
+   float:left;
+   width:200px;
+   height:145px;
+   margin-top:10px;
+   margin-left:10px;
+ }
+ 
+.div-recommend {
+   float:left;
+   width:1220px;
+   height:270px;
+   margin-top:20px;
+   margin-left:150px;
+ }
+ 
+.recommend {
+   float:left; 
+   width:203px; 
+   height:100%; 
+   margin-left:1px; 
+   background:#FFFFFF;
+   font-family:Microsoft YaHei;
+ }
+
+.recommend-name {
+   width:183px; 
+   height:15%; 
+   margin-left:10px; 
+   font-size:13px;
+   overflow:hidden;
+   white-space:nowrap;
+   text-overflow:ellipsis;
+ }
+ 
+.reduce-price {
+    float:left;
+	width:90px;
+	height:23px;
+	text-align:center;
+    line-height:23px;
+    border-top:1px solid #FF0000;
+	border-bottom:1px solid #FF0000;
+	border-left:1px solid #FF0000;
+	background:#FF0000;
+	color:#FFFFFF;
+ }
+ 
+.prime-price {
+	float:left;
+	width:90px;
+	height:23px;
+	text-align:center;
+    line-height:23px;
+    border:1px solid #FF0000;
+	color:#8E8E8E;
+ }
+ 
+.update {
+   width:25px;
+   height:40px;
+   text-align:center;
+   line-height:40px;
+   position:absolute;
+   color:#FFFFFF;
+   background-color:rgba(0,0,0,0.15);
+ }
+.update:hover{background-color:rgba(0,0,0,0.3);}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.div_title {
+	width:1528px; 
+	height:80px; 
+	background:url(../../images/share/头条.png); 
+    background-size:100% 100%;
+ }
+.div_guide{
+	width:1528px; 
+	height:180px; 
+	background:url(../../images/share/注册.png); 
+    background-size:100% 100%;
+ }
+ 
+.div_table {
+    width:400px;
+    height:50px;
+    margin-left:564px; 
+    margin-right:564px; 
+ }
+ 
+.prompt {
+    width:398px;
+    height:20px;
+    margin-top:4px;
+    margin-left:564px; 
+    display:none;
+    color: #EA0000;
+    background-color:#FFD2D2;
+	border:1px solid #EA0000;
+ }
+ 
+.sidebar {
+	width:99px;
+	height:48px;
+	float:left;
+	text-align:center;
+    line-height:48px;
+	border-top:1px solid #9D9D9D;
+	border-bottom:1px solid #9D9D9D;
+	border-left:1px solid #9D9D9D;
+ }
+ 
+ .sidebar_input {
+	width:298px;
+	height:48px;
+	float:left;
+	border:1px solid #9D9D9D;
+ }
+ 
+ .sidebar_button {
+	height:100%; 
+	width:100%; 
+	border:0;
+ }
+
+.input {
+    font-size:15px; 
+    height:45px;
+    padding-left:15px;
+    line-height:48px;
+    border:0px;
+ }
+ 
+.button {
+	height:50px; 
+	width:100%; 
+	color:white; 
+	background-color:red; 
+	font-size:20px; 
+	border:0;
+ }

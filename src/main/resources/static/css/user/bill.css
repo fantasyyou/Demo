@@ -1,0 +1,161 @@
+@charset "UTF-8";
+.bi-logo {
+   float:left;
+   width:240px;
+   height:80px;
+   margin-left:260px;
+ }
+
+.bi-query-input {
+   float:left;
+   width:300px;
+   height:40px;
+   margin-left:375px;
+   margin-top:36px;
+   background:#FFFFFF;
+   border:2px solid #FF0000;
+   border-right:0px;
+ }
+
+.bi-query-button {
+   float:left;
+   width:80px;
+   height:40px;
+   margin-top:36px;
+   border:2px solid #FF0000;	
+ }
+ 
+.bi-input {
+	width:260px;
+    height:20px;
+    margin-top:8px;
+    margin-left:5px;
+    border:0px;
+ }
+ 
+.bi-button {
+   width:80px; 
+   height:40px; 
+   background:red; 
+   color:white;
+   border:0px;
+   font-size:15px;
+ }
+
+/*商品区,操作区*/
+.bi-comm-title,.bi-comm,.bi-operate,.bi-ad-comm-area{width:1000px;height:auto;margin:0 auto;font-size:13px;font-family:Microsoft YaHei;}
+.bi-comm-title {
+   height:40px;
+   line-height:40px; 
+   background:#FFFFFF;
+ }
+ 
+.bi-comm {
+   height:162px;
+   margin-top:10px;
+   background:#FFECEC;  
+ }
+
+.bi-operate {
+   height:60px;
+   line-height:60px;
+   margin-top:20px;
+   border:1px solid #E0E0E0;
+ }
+
+
+.bi-ad-comm-area {
+   height:300px;
+   border:1px solid #8E8E8E;
+ }
+
+.bi-store {
+   height:30px; 
+   line-height:30px; 
+   background:#FFFFFF;
+   border-bottom:2px solid #8E8E8E
+ }
+
+.bi-bill-button {
+   float:right; 
+   width:100px; 
+   height:61px; 
+   text-align:center; 
+   line-height:61px; 
+   background:red; 
+   color:white; 
+   font-size:15px;
+ }
+ 
+/*购买商品数量修改*/
+.bi-reduce,.bi-quantity,.bi-add{float:left;width:20px;height:25px;line-height:25px;border:1px solid #8E8E8E;}  
+.bi-reduce {
+   margin-left:18px;
+   border-right:0px;
+ }
+ 
+.bi-quantity {
+   width:40px; 
+   border-right:0px;
+ }
+
+/*购买商品信息*/
+.bi-comm-img,.bi-comm-name,.bi-comm-price,.bi-comm-number,.bi-comm-operate{float:left;width:120px;height:auto;margin-top:15px;}    
+.bi-comm-img {
+   width:100px; 
+   height:100px;
+   margin-left:10px;
+   border:1px solid #F0F0F0;
+ }
+
+.bi-comm-name {
+   width:200px; 
+   height:35px;
+   margin-left:18px;
+   display:-webkit-box;
+   -webkit-box-orient:vertical;
+   overflow:hidden;
+ }
+ 
+.bi-comm-price {
+   margin-left:170px;
+   text-align:center;
+ }
+ 
+.bi-comm-number {
+   text-align:center;
+ }
+
+/*推荐商品*/
+.bi-ad-comm {
+   float:left;
+   width:200px; 
+   height:300px;
+ }
+
+.ad-comm-img,.ad-comm-name,.ad-comm-price,.ad-comm-add{float:left;width:160px;margin-left:20px;text-align:center;}
+.ad-comm-img {
+   height:180px;
+ }
+
+.ad-comm-name {
+   height:35px;
+   display:-webkit-box;
+   -webkit-box-orient:vertical;
+   overflow:hidden;
+ }
+ 
+.ad-comm-price {
+   height:30px;
+   line-height:30px;
+   color:red;
+ }
+ 
+.ad-comm-add {
+   width:140px;
+   height:35px;
+   margin-left:30px; 
+   line-height:35px;
+   border:1px solid #8E8E8E;
+   border-radius:5px;
+ }

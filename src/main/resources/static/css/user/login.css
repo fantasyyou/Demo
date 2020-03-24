@@ -1,0 +1,110 @@
+@charset "UTF-8";
+a{color:black;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;} 
+a:hover{color:red;}
+#test {
+   width:100%;
+   height:100%;
+   background-color:#808080;
+   position:absolute;
+   top:0;
+   left:0;
+   z-index:2;
+   opacity:0.3;
+   /*兼容IE8及以下版本浏览器*/
+   filter: alpha(opacity=30);
+   display: none;
+ }
+ 
+#login-area {
+   width:350px;
+   height:450px;
+   border:5px solid #8E8E8E;
+   border-radius:5px;
+   font-family:Microsoft YaHei;
+   font-size:13px;
+   background:#FFFFFF; 
+   position:fixed;  
+   z-index:3;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin:auto auto;
+   display:none;
+ }
+
+.login-top-title {
+   width:350px;
+   height:35px;
+   line-height:35px;
+   background:#F0F0F0; 
+   font-size:15px;
+ }
+ 
+.login-tips {
+   width:330px;
+   height:35px;
+   line-height:35px;
+   text-align:center;
+   background:#FFECEC;  
+   margin:10px auto 20px auto;
+ }
+ 
+.login-title {
+   text-align:center;
+   font-size:18px;
+ }
+ 
+.login-ceshi {
+   margin:0 auto; 
+   width:273px; 
+   height:20px;
+   margin-top:20px; 
+   color:red; 
+   font-family:Microsoft YaHei;
+ }
+  
+.login-img-title {
+   float:left;
+   width:30px;
+   height:30px; 
+   border-top:1px solid #8E8E8E;
+   border-bottom:1px solid #8E8E8E;
+   border-left:1px solid #8E8E8E;
+ }
+ 
+.login-div-input {
+   float:left;
+   width:240px;
+   height:30px; 
+   line-height:25px; 
+   border:1px solid #8E8E8E;
+ }
+ 
+.login-input {
+   width:200px;
+   height:21px; 
+   margin-top:2px;
+   padding-left:10px;
+   border:0px;
+ }
+
+#login-button {
+   width:273px;
+   height:30px;
+   line-height:30px;
+   text-align:center; 
+   background:#FF0000;
+   color:#FFFFFF;
+   font-size:18px;
+   margin:20px auto 0px auto;
+ }
+ 
+.login-jump-tips {
+   width:273px;
+   height:auto;
+   margin:20px auto 0px auto;
+   text-align:right; 
+ }

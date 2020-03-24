@@ -1,0 +1,29 @@
+@charset "UTF-8";
+div:hover,span:hover{
+   -moz-user-select:none; 
+   -webkit-user-select:none;  
+   cursor:pointer;
+ }
+ 
+.body {
+   position:absolute;
+   margin:0px; 
+   width:1520px; 
+   height:auto;
+ }
+ 
+.logo-img {
+   width:70px; 
+   height:70px; 
+ }
+ 
+.update {
+   width:25px;
+   height:40px;
+   text-align:center;
+   line-height:40px;
+   position:absolute;
+   color:#FFFFFF;
+   background-color:rgba(0,0,0,0.15);
+ }
+.update:hover{background-color:rgba(0,0,0,0.3);}

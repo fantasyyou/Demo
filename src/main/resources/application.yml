@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/Shoppingmall
+    driver-class-name: com.mysql.jdbc.Driver
+ 
+  devtools:
+    restart:
+      enabled: true  
+      
+  freemarker:
+    cache: false   
+
+  resources:
+    static-locations: classpath:/META-INF/resources/, classpath:/resources/, classpath:/static/, classpath:/public/, classpath:/templates/
+
+
+    
+
+
+
+
+
+
+
+
